@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 .clip {
+  right:0;
   overflow: hidden;
   bottom: -45.5rem;
   clip-path: polygon(0 44%, 0 100%, 100% 100%, 100% 0, 88% 16%, 22% 24%);
 }
 .wrapper{
-  
+
 }

@@ -6,8 +6,8 @@ const Home = () => {
   const [hovere, setHovere] = useState(false);
 
   return (
-    <div>
-      <div className="box flex flex-col items-center justify-center w-full h-screen bg-black">
+    <div className="p-5 bg-blue-900">
+      <div className="box flex flex-col items-center justify-center w-full h-screen">
         <div
           onMouseEnter={() => setHovere(true)}
           onMouseLeave={() => setHovere(false)}
